@@ -1,0 +1,13 @@
+.app {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar-container {
+    width: 250px;
+}
+
+.main-container {
+    width: calc(100% - 250px);
+}

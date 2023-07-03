@@ -1,0 +1,64 @@
+.line-container {
+    height: 130px;
+    width: 24%;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 0.3rem 0.5rem 0 #d6d6d6;
+    border-radius: 0.7rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.8rem;
+    padding-right: 0.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 10rem;
+    /* position: relative; */
+}
+
+.line-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.num-data {
+    align-self: flex-end;
+}
+
+.line-graph {
+    height: 120px;
+    width: 130px;
+    /* position: absolute; */
+}
+
+.net {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.change-container {
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+
+.change-rate {
+    display: flex;
+    align-items: center;
+    background-color: #e5f5eb;
+    color: #008e43;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+
+.rise-icon {
+    display: flex;
+    align-items: center;
+    border: 1.8px solid #008e43;
+    border-radius: 0.4rem;
+    text-align: center;
+}
+
+h3{
+    text-transform: capitalize;
+    font-weight: 300;
+}

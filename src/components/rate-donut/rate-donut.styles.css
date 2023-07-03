@@ -1,0 +1,16 @@
+.rdn-container {
+    height: 350px;
+    /* width: 24%; */
+    width: 350px;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 0.3rem 0.5rem 0 #d6d6d6;
+    border-radius: 0.7rem;
+    background-color: #fff;
+    padding-top: 0.8rem;
+    padding-left: 0.8rem;
+    margin-top: 1rem;
+}
+
+.rdn-chart {
+
+}
