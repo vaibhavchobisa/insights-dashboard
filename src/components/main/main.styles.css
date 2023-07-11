@@ -10,7 +10,17 @@
     padding-right: 0.5rem;
 }
 
-.lg-container {
+.first-row-container {
     display: flex;
     justify-content: space-between;
+}
+
+.second-row-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-row-container {
+    display: flex;
+    /* justify-content: space-between; */
 }

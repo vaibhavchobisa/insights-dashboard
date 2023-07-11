@@ -11,7 +11,11 @@
     padding-right: 0.5rem;
     padding-top: 0.8rem;
     padding-bottom: 10rem;
-    /* position: relative; */
+    margin-left: 1rem;
+}
+
+.line-container:nth-child(1) {
+    margin-left: 0;
 }
 
 .line-data {
@@ -58,7 +62,7 @@
     text-align: center;
 }
 
-h3{
+h3 {
     text-transform: capitalize;
     font-weight: 300;
 }
