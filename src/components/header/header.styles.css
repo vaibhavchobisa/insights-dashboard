@@ -17,9 +17,9 @@
 
 .header::before {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 0;
-    right: -105px;
+    left: -37px;
     width: 1577.88px;
     height: 1611.6px;
     z-index: 4;
@@ -29,14 +29,14 @@
 
 .header::after {
     content: "";
-    position: absolute;
+    position: fixed;
     top: -224.81px;
-    left: -259px;
+    left: 0;
     width: 2038.33px;
     height: 2080.19px;
     z-index: 3;
     border-radius: 50%;
-    background: radial-gradient(circle at center, #0a4ed4 65%, #0832a2 70%); 
+    background: radial-gradient(circle at center, #0a4ed4 65%, #0832a2 70%);
 }
 
 h1 {

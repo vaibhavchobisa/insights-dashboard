@@ -112,13 +112,13 @@ const LineGraph = ({ title, net, change, changeRate }) => {
                     <p className='net'>{net}</p>
                     <div className='change-container'>
                         <span className='change-rate'>
-                            <span className='rise-icon'><AiOutlineRise /></span>&nbsp;{changeRate}%
+                            <span className='change-per-icon'><AiOutlineRise /></span>&nbsp;{changeRate}%
                         </span>
                         <span>&nbsp;{change}</span>
                     </div>
                 </div>
                 <div className='line-graph'>
-                    <Line options={options} data={change > 0 ? dataRise() : dataFall()} />
+                    <Line options={options} data={parseInt(change) > 0 ? dataRise() : dataFall()} />
                 </div>
             </div>
         </div>

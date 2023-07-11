@@ -11,7 +11,8 @@
     padding-right: 0.5rem;
     padding-top: 0.8rem;
     padding-bottom: 10rem;
-    margin-left: 1rem;
+    margin-left: 1%;
+    position: relative;
 }
 
 .line-container:nth-child(1) {
@@ -45,6 +46,7 @@
 }
 
 .change-rate {
+    position: relative;
     display: flex;
     align-items: center;
     background-color: #e5f5eb;
@@ -52,12 +54,28 @@
     padding: 0.2rem 0.5rem;
     border-radius: 0.3rem;
     text-align: center;
+    z-index: 0;
 }
 
-.rise-icon {
+.line-container:nth-child(2) .change-rate {
+    position: relative;
+    color: #ee2b33;
+    background-color: #fce8e9;
+    z-index: 2;
+}
+
+.change-per-icon {
     display: flex;
     align-items: center;
     border: 1.8px solid #008e43;
+    border-radius: 0.4rem;
+    text-align: center;
+}
+
+.line-container:nth-child(2) .change-per-icon {
+    display: flex;
+    align-items: center;
+    border: 1.8px solid #ee2b33;
     border-radius: 0.4rem;
     text-align: center;
 }
