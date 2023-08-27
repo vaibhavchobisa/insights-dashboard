@@ -9,10 +9,10 @@
     padding-top: 0.8rem;
     padding-left: 0.8rem;
     padding-bottom: 0.8rem;
+    position: relative;
 }
 
 .progress-item {
-    position: relative;
     /* border-left: 1px solid #eaf2ff; */
     margin-left: 12px;
     padding-left: 16px;
@@ -59,7 +59,7 @@ ul {
     border: 2px solid #0e62ff;
     z-index: 3;
     position: absolute;
-    right: 15.2rem;
+    left: 10px;
     background-color: #fff;
 }
 
@@ -68,7 +68,7 @@ ul {
     display: inline-block;
     border: 1px solid #eaf2ff;
     position: absolute;
-    right: 15.8rem;
+    left: 20px;
     height: 80px;
     z-index: 2;
 }
@@ -89,13 +89,5 @@ ul {
     .progress {
         width: 100%;
         /* padding-left: 0; */
-    }
-
-    .progress-item::before {
-        right: 18.45rem;
-    }
-
-    .progress-header::before {
-        right: 17.8rem;
     }
 }
