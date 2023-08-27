@@ -2,7 +2,7 @@ import './progress.styles.css';
 
 const Progress = () => {
     const courses = ['course a', 'course b', 'course c', 'course d'];
-    const workers = [23, 253, 253, 253];
+    const workers = [23, 34, 69, 121];
 
     return (
         <div className="progress">
@@ -12,8 +12,12 @@ const Progress = () => {
                 courses.map((course, index) => {
                     return (
                         <div className='progress-item' key={index}>
-                            <h4 className='progress-header'>{course}</h4>
-                            <p className='progress-info'>{workers[index]} Workers Took This Course This Week</p>
+                            <ul>
+                                <li>
+                                    <h5 className='progress-header'>{course}</h5>
+                                </li>
+                                <p className='progress-info'>{workers[index]} Workers Took This Course This Week</p>
+                            </ul>
                         </div>
                     );
                 })

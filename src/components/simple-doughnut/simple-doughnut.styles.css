@@ -20,3 +20,10 @@
     padding-left: 0.8rem;
     padding-bottom: 0.8rem;
 }
+
+@media screen and (max-width: 768px) {
+    .sdn-container {
+        width: 100%;
+        margin-left: 0;
+    }
+}

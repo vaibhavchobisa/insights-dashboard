@@ -28,3 +28,27 @@
     /* justify-content: space-between; */
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 768px) {
+    .first-row-container {
+        width: 100%;
+        flex-direction: column;
+        /* margin-bottom: 10px; */
+    }
+
+    .second-row-container {
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .third-row-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .insights-container {
+        width: 100%;
+        padding-left: 8px;
+    }
+}

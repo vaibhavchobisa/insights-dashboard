@@ -43,6 +43,7 @@ h1 {
     position: relative;
     padding-top: 1rem;
     z-index: 5;
+    font-size: 2rem;
 }
 
 h2 {
@@ -50,4 +51,22 @@ h2 {
     font-size: 1rem;
     font-weight: 300;
     z-index: 5;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    h2 {
+        font-size: 0.8rem;
+    }
+
+    .header::before {
+        left: -310px;
+    }
+
+    .header::after {
+        left: -255px;
+    }
 }

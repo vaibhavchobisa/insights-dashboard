@@ -6,6 +6,7 @@
     border-radius: 0.7rem;
     background-color: #fff;
     margin-top: 1rem;
+    position: relative;
 }
 
 .rdn-chart {
@@ -20,4 +21,16 @@
     padding-top: 0.8rem;
     padding-left: 0.8rem;
     padding-bottom: 0.8rem;
+}
+
+@media screen and (max-width: 768px) {
+    .rdn-container {
+        width: 100%;
+    }
+
+    .rdn-chart {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
 }

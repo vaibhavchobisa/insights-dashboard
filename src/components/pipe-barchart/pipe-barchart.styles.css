@@ -23,3 +23,16 @@
     width: 100%;
     padding-top: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+    .pbc-container {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .pbc-chart {
+        /* height: min-content; */
+        margin-top: 35px;
+    }
+
+}

@@ -71,3 +71,14 @@ div.content {
     padding-left: 30px;
     padding-right: 30px;
 }
+
+/* @media screen and (max-width: 768px) {
+    .sidebar {
+        display: none;
+        width: 0;
+    }
+
+    div.content {
+        margin-left: 0px;
+    }
+} */
