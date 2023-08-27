@@ -11,7 +11,7 @@ const Sidebar = () => {
     return (
         <div className='sidebar'>
             <div className='logo'>
-                <img src="logo.png" alt="chaabi-logo" />
+                <img src="logo.png" alt="insights+ logo" />
             </div>
             <div className='buttons'>
                 <a
